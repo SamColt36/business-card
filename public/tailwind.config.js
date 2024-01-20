@@ -1,5 +1,5 @@
 /** @type {import(tailwindcss).Config} */
-export const content = ["*.{html,js}"];
+export const content = ["**/*.{html,js}"];
 export const theme = {
   extend: {
     screens: {
@@ -13,6 +13,9 @@ export const theme = {
       // => @media and (min-width: 300px) and (max-width: 425px)
       xs: { max: "300px" }
       // => @media and (max-width: 300px)
+    },
+    colors: {
+      'azul-claro': "#22D4FD"
     }
   }
 };
