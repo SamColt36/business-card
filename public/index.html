@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+
 <head>
-  <!-- Lembrar de preencher os campos content -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="Adicionar descrição" />
+  <meta name="description" content="Olá tudo bem? Confira meus novos projetos Front end e venha se conectar comigo!" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="author" content="Samuel da Silva" />
   <meta property="og:title" content="Desenvolvedor Front end" />
-  <meta property="og:description" content="Olá tudo bem? Confira meus novos projetos Front end e conecte-se comigo!" />
+  <meta property="og:description"
+    content="Olá tudo bem? Confira meus novos projetos Front end e venha se conectar comigo!" />
   <meta property="og:image" content="/public/images/favicon.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Desenvolvedor Front end" />
-  <meta name="twitter:description" content="Olá tudo bem? Confira meus novos projetos Front End e conecte-se comigo!" />
+  <meta name="twitter:description"
+    content="Olá tudo bem? Confira meus novos projetos Front end e venha se conectar comigo!" />
   <meta name="twitter:image" content="/public/images/favicon.png" />
   <meta name="robots" content="index, follow" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Adicionar link da página no href abaixo, como url canonical -->
   <link rel="stylesheet" href="/public/styles/output.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="/public/images/favicon.png" />
   <link rel="manifest" href="/public/images/favicon.png" />
@@ -28,9 +29,9 @@
   <title>Desenvolvedor Front-End | Web</title>
 </head>
 
-<body class="bg-black min-w-80">
+<body class="bg-color-secondary min-w-80">
   <!-- Barra de navegação -->
-  <nav class="*:text-azul-claro *:text-lg *:font-medium mt-14 space-x-20 max-w-5xl p-4 mx-auto">
+  <nav class="*:text-color-primary *:text-lg *:font-medium mt-14 space-x-20 max-w-5xl p-4 mx-auto lg:max-w-2xl">
     <a href="/public/index.html" title="Home">Home</a>
     <a href="/public/about-me.html" title="Sobre mim">Sobre mim</a>
   </nav>
@@ -41,12 +42,11 @@
     <!-- Seção de conteúdo principal -->
     <section class="flex flex-col space-y-10 *:space-y-10 lg:flex-row lg:basis-full *:lg:basis-1/2">
       <!-- Conteúdo de texto -->
-      <header class="krona-one-regular text-white flex flex-col p-4">
+      <header class="krona-one-regular text-color-tertiary flex flex-col p-4">
         <!-- Título -->
         <h1 class="text-xl md:text-2xl lg:text-2xl xl:text-4xl">
-          Eleve seu negócio digital a outro nível
-          <strong class="text-azul-claro">com um Front-end de qualidade!
-          </strong>
+          Eleve seu negócio digital a outro nível <strong class="text-color-primary">com um Front-end de
+            qualidade!</strong>
         </h1>
         <!-- /Título -->
         <!-- Texto descritivo -->
@@ -60,36 +60,35 @@
         <!-- /Texto descritivo -->
       </header>
       <!-- /Conteúdo de texto -->
+
       <!-- Links -->
-      <nav class="montserrat flex justify-center flex-col *:text-white *:font-semibold *:rounded-lg *:text-center
-      md:*:py-4 lg:*:py-4 xl:*:py-5">
-        <header class="text-xl md:text-2xl lg:text-2xl xl:text-4xl">Acesse minhas redes sociais:</header>
+      <nav class="flex justify-center flex-col *:text-color-tertiary *:font-semibold *:rounded-lg *:text-center
+      ">
+        <header class="krona-one-regular p-4 lg:text-xl xl:text-xl">Acesse minhas redes sociais:</header>
 
         <list
-          class="flex flex-col justify-center items-center space-y-8 *:relative *:rounded-lg *:flex *:justify-center *:items-center *:space-x-4 *:border-2 *:border-azul-claro *:w-2/3 *:py-4">
+          class="montserrat flex flex-col justify-center items-center space-y-8 *:relative *:rounded-lg *:flex *:justify-center *:items-center *:space-x-4 *:border-2 *:border-color-primary *:w-2/3 *:py-4">
           <!-- Ícone Github -->
           <a href="https://github.com/SamColt36" alt="Link de redirecionamento para Github"
-            class="overflow-hidden group before:block before:h-full before:w-0 before:-z-50 before:transition-all before:duration-500 before:bg-azul-claro before:absolute before:bottom-0 before:left-0 hover:before:w-full">
-            <svg class="h-5 w-5 stroke-2 stroke-azul-claro transition-colors duration-500 group-hover:stroke-black"
+            class="overflow-hidden group before:block before:h-full before:w-0 before:-z-50 before:transition-all before:duration-500 before:bg-color-primary before:absolute before:bottom-0 before:left-0 hover:before:w-full after:content-['Github'] after:px-2 hover:after:text-color-secondary after:block after:h-full">
+            <svg class="h-5 w-5 stroke-2 stroke-color-primary transition-colors duration-500 group-hover:stroke-color-secondary"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
               stroke-linejoin="round" title="Logo GitHub">
               <path
                 d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
             </svg>
-            <p class="group-hover:text-black">GitHub</p>
           </a>
           <!-- /Ícone Github -->
           <!-- Ícone Linkedin -->
           <a href="https://www.linkedin.com/in/samuelssdev/" alt="Link de redirecionamento para Linkedin"
-            class="overflow-hidden group before:block before:h-full before:w-0 before:-z-50 before:transition-all before:duration-500 before:bg-azul-claro before:absolute before:bottom-0 before:left-0 hover:before:w-full">
-            <svg class="h-5 w-5 stroke-2 stroke-azul-claro transition-colors duration-500 group-hover:stroke-black"
+            class="overflow-hidden group before:block before:h-full before:w-0 before:-z-50 before:transition-all before:duration-500 before:bg-color-primary before:absolute before:bottom-0 before:left-0 hover:before:w-full after:content-['Linkedin'] after:px-2 hover:after:text-color-secondary after:block after:h-full">
+            <svg class="h-5 w-5 stroke-2 stroke-color-primary transition-colors duration-500 group-hover:stroke-color-secondary"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" title="Logo Linkedin" stroke-linecap="round"
               stroke-linejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
               <rect x="2" y="9" width="4" height="12" />
               <circle cx="4" cy="4" r="2" />
             </svg>
-            <p class="group-hover:text-black">Linkedin</p>
           </a>
           <!-- Ícone /Linkedin -->
         </list>
@@ -100,7 +99,7 @@
 
     <!-- Seção de conteúdo de imagem -->
     <picture class="relative aspect-square after:block after:absolute after:top-0 after:right-0 after:w-full after:h-full after:translate-x-5 after:-translate-y-5
-      after:border-2 after:border-azul-claro after:rounded-xl after:-z-50 hidden xl:block">
+      after:border-2 after:border-color-primary after:rounded-xl after:-z-50 hidden xl:block">
       <source media="(min-width:768px)" srcset="/public/images/perfil@2x.png">
       <img src="/public/images/perfil@1x.png" alt="Foto de Samuel da Silva em apresentação"
         class="rounded-xl w-full h-full z-50 mx-auto" />
@@ -113,29 +112,27 @@
       <div class="flex flex-col space-y-4 xl:flex-row xl:space-y-0 xl:items-center xl:space-x-2">
         <h2 class="text-center text-xl md:text-2xl lg:text-2xl xl:text-2xl">Figma made available by Alura</h2>
         <figure class="relative flex h-16">
-          <img src="/public/vectors/Logo Alura.svg" class="bg-white h-full mx-auto p-2 xl:w-32">
-          <img src="/public/vectors/One.svg" class="bg-white h-full mx-auto p-2 xl:w-32">
+          <img src="/public/vectors/Logo Alura.svg" class="h-full mx-auto p-2 xl:w-32">
+          <img src="/public/vectors/One.svg" class="h-full mx-auto p-2 xl:w-32">
         </figure>
       </div>
 
       <a class="flex text-center text-gray-500 text-sm max-w-sm lg:text-base xl:text-base"
         href="https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?type=design&node-id=1-47&mode=design">
-        <p>
-          Figma made available by Alura
-        </p>
+        Figma made available by Alura
       </a>
       <!-- Carrossel de link de redes sociais -->
       <figure class="h-6 flex justify-center space-x-3">
         <a href="https://www.facebook.com/AluraCursosOnline/" target="_blank" rel="noopener noreferrer"
           title="Facebook">
-          <svg class="h-full cursor-pointer stroke-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          <svg class="h-full cursor-pointer stroke-color-tertiary" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
           </svg>
         </a>
 
         <a href="https://twitter.com/aluraonline" target="_blank" rel="noopener noreferrer" title="Twitter">
-          <svg class="h-full cursor-pointer stroke-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          <svg class="h-full cursor-pointer stroke-color-tertiary" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-linecap="round" stroke-linejoin="round">
             <path
               d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
@@ -144,7 +141,7 @@
 
         <a href="https://www.youtube.com/user/aluracursosonline" target="_blank" rel="noopener noreferrer"
           title="Youtube">
-          <svg class="h-full cursor-pointer stroke-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          <svg class="h-full cursor-pointer stroke-color-tertiary" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-linecap="round" stroke-linejoin="round">
             <path
               d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
@@ -153,7 +150,7 @@
         </a>
 
         <a href="http://hipsters.tech/" target="_blank" rel="noopener noreferrer" title="Hipsters">
-          <svg class="h-full cursor-pointer stroke-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          <svg class="h-full cursor-pointer stroke-color-tertiary" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-linecap="round" stroke-linejoin="round">
             <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
             <path
@@ -162,7 +159,7 @@
         </a>
 
         <a href="https://instagram.com/aluraonline" target="_blank" rel="noopener noreferrer" title="Instagram">
-          <svg class="h-full cursor-pointer stroke-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          <svg class="h-full cursor-pointer stroke-color-tertiary" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
             <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -175,7 +172,7 @@
   </footer>
 
   <copyright class="flex justify-center items-center text-xs bg-neutral-950 p-4">
-    <p class="text-gray-50 text-center">Copyright &#169;2024 Samuel &#9829;.</p>
+    <p class="text-gray-50 text-center">Copyright &#169;2024 Samuel &#9829;</p>
   </copyright>
 </body>
 

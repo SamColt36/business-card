@@ -15,7 +15,12 @@ export const theme = {
       // => @media and (max-width: 300px)
     },
     colors: {
-      'azul-claro': "#22D4FD"
+      //Para destaque
+      "color-primary": "#22D4FD",
+      // Para background
+      "color-secondary": "#000000",
+      // Para texto
+      "color-tertiary": "#F6F6F6"
     }
   }
 };
