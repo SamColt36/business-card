@@ -28,71 +28,78 @@
     <title>Sobre mim</title>
 </head>
 
-<body class="bg-color-secondary min-w-80">
+<body
+    class="bg-color-secondary min-w-80 after:bg-background-binary-mobile after:block after:fixed after:top-0 after:left-0 after:w-full after:h-screen after:bg-cover after:bg-center after:-z-50 after:opacity-10 xl:after:bg-background-binary">
     <!-- Barra de navegação -->
-    <nav class="*:text-color-primary *:text-lg *:font-medium mt-14 space-x-20 max-w-5xl p-4 mx-auto lg:max-w-2xl">
+    <nav
+        class="*:text-color-primary *:text-lg *:font-medium my-14 flex justify-start space-x-14 p-6 lg:max-w-2xl lg:mx-auto  xl:max-w-4xl xl:mx-auto">
         <a href="/public/index.html" title="Home">Home</a>
         <a href="/public/about-me.html" title="Sobre mim">Sobre mim</a>
     </nav>
     <!-- /Barra de navegação -->
 
     <main
-        class="flex items-start flex-col mt-12 mx-auto *:basis-1/2 md:24 lg:flex-row lg:mt-36 lg:space-x-8 lg:max-w-2xl xl:mt-36 xl:flex-row xl:space-x-8 xl:max-w-5xl">
-        <!-- Seção de conteúdo principal -->
-        <section class="flex flex-col space-y-10 *:space-y-10 lg:flex-row lg:basis-full">
-            <!-- Conteúdo de texto -->
-            <header class="krona-one-regular text-color-tertiary flex flex-col p-4">
-                <!-- Título -->
-                <h1 class="text-xl md:text-2xl lg:text-2xl xl:text-4xl">
-                    Sobre mim
-                </h1>
-                <!-- /Título -->
-                <!-- Texto descritivo -->
-                <section class="montserrat space-y-6 md:text-lg lg:text-lg xl:text-lg">
-                    <p>
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
-                        dolorum fuga.
-                    </p>
-                    <p class="xs:hidden sm:hidden">
-                        Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-                        est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
-                        voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis
-                        debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae
-                        non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-                        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores ipsum delis forum
-                        birol parela maxime infena. Excepteur sint occaecat cupidatat non.
-                    </p>
-                </section>
-                <!-- /Texto descritivo -->
-            </header>
-            <!-- /Conteúdo de texto -->
-        </section>
-        <!-- Seção de conteúdo principal -->
+        class="grid grid-cols-1 gap-12 my-12 lg:grid-cols-2 lg:gap-3 lg:max-w-2xl lg:mx-auto xl:grid-cols-2 xl:gap-3 xl:max-w-4xl xl:mx-auto">
+        <!-- Conteúdo de texto -->
+        <header class="order-2 krona-one-regular text-color-tertiary flex flex-col space-y-6 p-6 lg:order-1 xl:order-1">
+            <!-- Título -->
+            <h1 class="text-xl lg:text-2xl xl:text-2xl">
+                Sobre mim
+            </h1>
+            <!-- /Título -->
+            <!-- Texto descritivo -->
+            <section class="montserrat space-y-6">
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                    provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+                    fuga.
+                </p>
+                <p>
+                    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+                    eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
+                    assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
+                    necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
+                    earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+                    consequatur aut perferendis doloribus asperiores ipsum delis forum birol parela maxime infena.
+                    Excepteur sint occaecat cupidatat non.
+                </p>
+            </section>
+            <!-- /Texto descritivo -->
+        </header>
+        <!-- /Conteúdo de texto -->
 
         <!-- Seção de conteúdo de imagem -->
-        <picture class="relative aspect-square after:block after:absolute after:top-0 after:right-0 after:w-full after:h-full after:translate-x-5 after:-translate-y-5
-      after:border-2 after:border-color-primary after:rounded-xl after:-z-50 hidden xl:block">
+        <picture
+            class="order-1 w-square relative mx-auto aspect-square after:block after:absolute after:bottom-0 after:left-0 after:w-square after:h-square after:translate-x-6 after:-translate-y-6 after:border-2 after:border-color-primary after:rounded-xl after:-z-50 lg:order-2 xl:w-square-larger after:xl:w-square-larger after:xl:h-square-larger">
             <source media="(min-width:768px)" srcset="/public/images/perfil@2x.png">
             <img src="/public/images/perfil@1x.png" alt="Foto de Samuel da Silva em apresentação"
-                class="rounded-xl w-full h-full z-50 mx-auto" />
+                class="rounded-xl z-50" />
+
+            <svg viewBox="0 0 406 318" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="absolute left-0 bottom-[5%] w-[80%] stroke-color-primary fill-color-primary">
+                <path
+                    d="M374.185 38.4381C347.242 76.7983 241.295 128.859 82.8305 86.3884M366.986 159.032C356.815 226.232 41.2736 242.113 2.91334 159.032"
+                    stroke-width="4" stroke-linecap="round" fill="none" />
+                <path d="M384.526 267.642C344.502 312.896 88.7671 347.146 1.99999 272.302" stroke-width="4"
+                    stroke-linecap="round" fill="none" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M381.087 61.6204C381.137 44.7727 392.182 31.134 405.8 31.134C392.151 31.134 381.087 17.4339 381.087 0.534363C381.038 17.3821 369.993 31.0208 356.375 31.0208C370.024 31.0208 381.087 44.7209 381.087 61.6204Z" />
+            </svg>
         </picture>
         <!-- /Seção de conteúdo de imagem -->
     </main>
 
-    <footer class="bg-stone-900 text-gray-50 py-16 mt-20">
+    <footer class="bg-stone-900 text-gray-50 py-16">
         <div class="space-y-5 flex justify-center items-center flex-col">
-            <div class="flex flex-col space-y-4 xl:flex-row xl:space-y-0 xl:items-center xl:space-x-2">
-                <h2 class="text-center text-xl md:text-2xl lg:text-2xl xl:text-2xl">Figma made available by Alura</h2>
-                <figure class="relative flex h-16">
-                    <img src="/public/vectors/Logo Alura.svg" class="h-full mx-auto p-2 xl:w-32">
-                    <img src="/public/vectors/One.svg" class="h-full mx-auto p-2 xl:w-32">
-                </figure>
-            </div>
+            <figure class="flex h-16 *:h-full *:mx-auto *:p-2 *:xl:w-32">
+                <img src="/public/vectors/Logo Alura.svg">
+                <img src="/public/vectors/One.svg">
+            </figure>
 
-            <a class="flex text-center text-gray-500 text-sm max-w-sm lg:text-base xl:text-base"
-                href="https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?type=design&node-id=1-47&mode=design">
+            <a class="flex text-center text-gray-500 text-sm"
+                href="https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?type=design&node-id=1-47&mode=design"
+                title="Figma">
                 Figma made available by Alura
             </a>
             <!-- Carrossel de link de redes sociais -->

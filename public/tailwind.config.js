@@ -21,6 +21,15 @@ export const theme = {
       "color-secondary": "#000000",
       // Para texto
       "color-tertiary": "#F6F6F6"
+    },
+    spacing: {
+      'square': '250px',
+      'square-larger': '350px',
+      'link-icon-typography': '1.5rem'
+    },
+    backgroundImage: {
+      'background-binary': "url('/public/images/background-binary.png')",
+      'background-binary-mobile': "url('/public/images/background-binary-mobile.png')",
     }
   }
 };
