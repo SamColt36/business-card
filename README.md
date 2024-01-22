@@ -5,7 +5,7 @@
 
 O escopo do projeto é o seguinte: Desenvolver modal de apresentação com base em design do Figma.
 
->Não se preocupe, porque você não vai precisar editar nada no Figma ou nem mesmo baixar o aplicativo. Basta acessar  [esse link](https://www.figma.com/file/4EKKCbr5rS93RWP7kRjXIz/Portfolio---Curso-1?type=design&mode=design)  e você já vai conseguir visualizar o layout! Lá, você também poderá visualizar todos os valores para espaçamento, cores do projeto, tamanhos de texto, e muito mais! Ele foi desenvolvido pela equipe dev Joana Soares.
+>Não se preocupe, porque você não vai precisar editar nada no Figma ou nem mesmo baixar o aplicativo. Basta acessar  [esse link](https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?node-id=8%3A2&mode=dev)  e você já vai conseguir visualizar o layout! Lá, você também poderá visualizar todos os valores para espaçamento, cores do projeto, tamanhos de texto, e muito mais! Ele foi desenvolvido pela equipe dev Joana Soares.
 
 ## Instruções
 
