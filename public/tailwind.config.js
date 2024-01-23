@@ -28,8 +28,8 @@ export const theme = {
       'link-icon-typography': '1.5rem'
     },
     backgroundImage: {
-      'background-binary': "url('/public/images/background-binary.png')",
-      'background-binary-mobile': "url('/public/images/background-binary-mobile.png')",
+      'background-binary': "url('../images/background-binary.png')",
+      'background-binary-mobile': "url('../images/background-binary-mobile.png')",
     }
   }
 };
