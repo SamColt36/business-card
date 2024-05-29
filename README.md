@@ -51,7 +51,7 @@ O projeto encontra-se em:
 
 ## 🌐 Acessar o projeto
 
-Acesse a última versão disponível pelo [link](https://business-card-bczlpj9j8-samcolt36s-projects.vercel.app/)🔗.
+Acesse a última versão disponível pelo [link](https://business-card-nu-seven.vercel.app/)🔗.
 
 ## 📂 Estrutura de diretórios
 
