@@ -1,10 +1,4 @@
-/*!*******************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/styles/styles.css ***!
-  \*******************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap);
-/*!***********************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/styles/styles.css (1) ***!
-  \***********************************************************************************************************************/
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 *//*
@@ -615,11 +609,11 @@ video {
 .isolation-auto {
   isolation: auto;
 }
-.z-50 {
-  z-index: 50;
-}
 .-z-50 {
   z-index: -50;
+}
+.z-50 {
+  z-index: 50;
 }
 .order-1 {
   order: 1;
@@ -801,14 +795,14 @@ video {
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
 }
+.w-full {
+  width: 100%;
+}
 .w-link-icon-typography {
   width: 1.5rem;
 }
 .w-square {
   width: 250px;
-}
-.w-full {
-  width: 100%;
 }
 .min-w-80 {
   min-width: 20rem;
@@ -1847,9 +1841,6 @@ video {
 .opacity-10 {
   opacity: 0.1;
 }
-.opacity-35 {
-  opacity: 0.35;
-}
 .opacity-25 {
   opacity: 0.25;
 }
@@ -2155,33 +2146,13 @@ video {
   }
 }
 
-.\*\:fixed > * {
-  position: fixed;
-}
-
 .\*\:relative > * {
   position: relative;
-}
-
-.\*\:left-0 > * {
-  left: 0px;
-}
-
-.\*\:top-0 > * {
-  top: 0px;
-}
-
-.\*\:-z-50 > * {
-  z-index: -50;
 }
 
 .\*\:mx-auto > * {
   margin-left: auto;
   margin-right: auto;
-}
-
-.\*\:block > * {
-  display: block;
 }
 
 .\*\:flex > * {
@@ -2192,16 +2163,8 @@ video {
   height: 100%;
 }
 
-.\*\:h-screen > * {
-  height: 100vh;
-}
-
 .\*\:w-2\/3 > * {
   width: 66.666667%;
-}
-
-.\*\:w-full > * {
-  width: 100%;
 }
 
 .\*\:items-center > * {
@@ -2259,10 +2222,6 @@ video {
 .\*\:text-color-tertiary > * {
   --tw-text-opacity: 1;
   color: rgb(246 246 246 / var(--tw-text-opacity));
-}
-
-.\*\:opacity-10 > * {
-  opacity: 0.1;
 }
 
 .before\:absolute::before {
