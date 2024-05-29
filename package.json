@@ -1,15 +1,30 @@
 {
   "name": "business-card",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esse projeto faz parte da formação básica ONE - Oracle Next Education 2024. O escopo do projeto é de desenvolver um modal de apresentação com base em design do Figma.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch"
   },
   "keywords": [],
   "author": "Samuel da Silva",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.4.1"
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "tailwindcss": "^3.4.3",
+    "url-loader": "^4.1.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
 }
